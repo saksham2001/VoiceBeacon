@@ -1,0 +1,27 @@
+# Environment — contains API keys and node tokens
+.env
+
+# Audio recordings (keep directory via .gitkeep)
+recordings/
+!recordings/.gitkeep
+*.wav
+*.raw
+*.bin
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+
+# Diagnostic temp files
+/tmp/
+
+# Editor / OS
+.DS_Store
+*.swp
+*.swo
+
+# Claude session files
+.claude/
+.gstack/
